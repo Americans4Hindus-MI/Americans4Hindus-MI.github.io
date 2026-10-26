@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A4H Bhajan Clubbing 2026 | Your Feedback</title>
+<meta name="description" content="Share your feedback on A4H Michigan's Bhajan Clubbing 2026 celebration.">
+<meta property="og:title" content="A4H Bhajan Clubbing | Share Your Feedback">
+<meta property="og:description" content="Thank you for joining us! Tell us what you enjoyed and how we can make our next event even better.">
+<meta property="og:image" content="https://americans4hindus-mi.github.io/bhajanclubbing/survey/survey-hero-v2.png">
+<meta property="og:url" content="https://americans4hindus-mi.github.io/bhajanclubbing/survey/">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:type" content="website">
+<style>
+:root{--navy:#102a50;--gold:#d4aa58;--ink:#1e2a3a;--muted:#637083}
+*{box-sizing:border-box}body{margin:0;background:#f5f6fa;color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+header{background:#100725;color:white;text-align:center;padding:0;line-height:0}
+.hero-image{display:block;width:100%;max-width:1100px;height:auto;margin:0 auto}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.logo{width:98px;height:98px;object-fit:contain;border:3px solid var(--gold);border-radius:50%;padding:7px;background:white}
+.eyebrow{color:#f1cb7e;font-size:13px;letter-spacing:2px;font-weight:700;margin-top:12px}
+h1{font-size:clamp(29px,5vw,43px);line-height:1.14;margin:12px auto;max-width:680px}
+header p{max-width:650px;margin:0 auto;color:#e2e9f2}
+main{max-width:760px;margin:-18px auto 45px;padding:0 18px}
+.panel{background:white;border-radius:16px;box-shadow:0 14px 35px #0b24451a;padding:clamp(22px,5vw,42px)}
+h2{margin:0 0 8px;color:var(--navy)}.intro{color:var(--muted);margin:0 0 24px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{margin-bottom:19px}
+label,.question{display:block;font-weight:650;margin-bottom:7px}
+input[type=text],input[type=email],input[type=tel],textarea{width:100%;border:1px solid #cbd4df;border-radius:9px;padding:12px;font:inherit;background:white;color:var(--ink)}
+input:focus,textarea:focus{outline:2px solid var(--gold);outline-offset:1px}
+textarea{resize:vertical;min-height:95px}.req{color:#a83d30}
+.stars{display:flex;gap:5px;flex-wrap:wrap}.star{background:none;border:0;color:#bbc3cf;font-size:38px;cursor:pointer;line-height:1.1;padding:3px}
+.star.active{color:#d3a13e}.options{display:grid;gap:10px}.option{border:1px solid #d6deea;padding:10px 13px;border-radius:9px;cursor:pointer;font-weight:450}
+.option:has(input:checked){border-color:#c69a44;background:#fffaf0}.option input{margin-right:9px}
+.consent{display:flex;align-items:flex-start;gap:10px;font-weight:450}.consent input{margin-top:5px}
+button.submit{width:100%;border:0;border-radius:10px;background:var(--navy);color:white;padding:15px;font:700 16px system-ui;cursor:pointer}
+button.submit:disabled{opacity:.6;cursor:wait}
+.notice{font-size:13px;color:var(--muted)}.status{margin-top:12px;font-weight:600;min-height:22px}
+.success{text-align:center;padding:22px 0}.success h2{font-size:28px}
+a{color:#164e8d}footer{text-align:center;color:#657184;font-size:13px;padding:0 20px 32px}
+.links{display:flex;flex-wrap:wrap;justify-content:center;gap:15px;margin-top:20px}
+.links a{border:1px solid #d6dce6;border-radius:8px;padding:10px 13px;text-decoration:none}
+@media(max-width:560px){.grid{grid-template-columns:1fr;gap:0}.panel{padding:23px 19px}}
+</style></head>
+<body>
+<header><img class="hero-image" src="survey-hero-v2.png" alt="A4H Bhajan Clubbing 2026 — Share Your Feedback"></header>
+<main><section class="panel" id="formPanel">
+<h1 class="sr-only">A4H Bhajan Clubbing 2026 Attendee Feedback Survey</h1><h2>We'd Love Your Feedback</h2><p class="intro">Just three quick questions, plus your contact details. Thank you for being part of our community.</p>
+<form id="surveyForm" novalidate>
+<div class="grid">
+<div class="field"><label for="name">Full Name <span class="req">*</span></label><input id="name" name="name" type="text" maxlength="150" autocomplete="name" required></div>
+<div class="field"><label for="email">Email Address <span class="req">*</span></label><input id="email" name="email" type="email" maxlength="254" autocomplete="email" required></div>
+</div>
+<div class="field"><label for="phone">Phone Number <span class="req">*</span></label><input id="phone" name="phone" type="tel" maxlength="25" autocomplete="tel" required placeholder="e.g. (248) 555-0123"></div>
+<div class="field"><span class="question">1. How would you rate your overall experience? <span class="req">*</span></span>
+<div class="stars" role="group" aria-label="Overall event rating" id="stars"></div><input type="hidden" name="rating" id="rating"></div>
+<div class="field"><span class="question">2. What did you enjoy most? <span class="req">*</span></span>
+<div class="options">
+<label class="option"><input type="radio" name="enjoyed" value="Music &amp; Bhajans" required>Music &amp; Bhajans</label>
+<label class="option"><input type="radio" name="enjoyed" value="Community Atmosphere">Community Atmosphere</label>
+<label class="option"><input type="radio" name="enjoyed" value="Food &amp; Hospitality">Food &amp; Hospitality</label>
+<label class="option"><input type="radio" name="enjoyed" value="Everything!">Everything!</label>
+</div></div>
+<div class="field"><label for="suggestions">3. What could we improve, or what would you like to see at future A4H events?</label><textarea id="suggestions" name="suggestions" maxlength="2000" placeholder="Your suggestions (optional)"></textarea></div>
+<div class="field"><label class="consent"><input type="checkbox" id="consent">I would like to receive information about future A4H events, membership opportunities, and community initiatives.</label></div>
+<div style="position:absolute;left:-10000px" aria-hidden="true"><label>Website<input name="website" type="text" tabindex="-1" autocomplete="off"></label></div>
+<p class="notice">Your responses will be shared with the A4H organizing team for event feedback and follow-up. Contact details will not be published. Updates are optional.</p>
+<button class="submit" id="submit" type="submit">Submit My Feedback</button><div class="status" id="status" role="status" aria-live="polite"></div>
+</form></section>
+<section class="panel success" id="thanks" hidden><h2>Thank You! 🙏</h2><p>We appreciate your feedback and your participation in A4H Bhajan Clubbing.</p><div class="links"><a href="https://photos.app.goo.gl/HSu7SEh6K1HoEKEdA" target="_blank" rel="noopener">View Event Photos</a><a href="https://www.americans4hindus.org/" target="_blank" rel="noopener">Explore A4H</a></div></section></main>
+<footer>© 2026 Americans for Hindus · Michigan<br>Building community, together.</footer>
+<script>
+const ENDPOINT = 'https://script.google.com/macros/s/AKfycbwq-WRoZNfM7CosvUK7HVF80i86i1rzRYp1cBVsfMWAIdj81jsXKJmwHpQILq6IkBo2/exec';
+const stars = document.getElementById('stars');
+const rating = document.getElementById('rating');
+for(let i=1;i<=5;i++){
+ const b=document.createElement('button');b.type='button';b.className='star';b.textContent='★';
+ b.setAttribute('aria-label',`${i} star${i===1?'':'s'}`);b.setAttribute('aria-pressed','false');
+ b.addEventListener('click',()=>{rating.value=i;[...stars.children].forEach((x,j)=>{x.classList.toggle('active',j<i);x.setAttribute('aria-pressed',String(j===i-1))})});
+ stars.appendChild(b);
+}
+document.getElementById('surveyForm').addEventListener('submit',async function(e){
+ e.preventDefault();
+ const form=this, status=document.getElementById('status'), btn=document.getElementById('submit');
+ if(!form.reportValidity())return;
+ if(!rating.value){status.textContent='Please select a star rating.';return}
+ const fd=new FormData(form);
+ const data={name:fd.get('name').trim(),email:fd.get('email').trim(),phone:fd.get('phone').trim(),
+ rating:Number(rating.value),enjoyed:fd.get('enjoyed')||'',suggestions:fd.get('suggestions').trim(),
+ consent:document.getElementById('consent').checked,website:fd.get('website')||''};
+ if(!data.enjoyed){status.textContent='Please select what you enjoyed most.';return}
+ if(!/^[+()\d.\s-]{7,25}$/.test(data.phone)){status.textContent='Please enter a valid phone number.';return}
+ btn.disabled=true;status.textContent='Submitting your feedback…';
+ try{
+  // text/plain avoids a CORS preflight; Apps Script redirects can make response unreadable.
+  // A resolved opaque response is NOT proof the sheet was updated; verify during testing.
+  await fetch(ENDPOINT,{method:'POST',mode:'no-cors',headers:{'Content-Type':'text/plain;charset=utf-8'},body:JSON.stringify(data)});
+  document.getElementById('formPanel').hidden=true;
+  document.getElementById('thanks').hidden=false;
+ }catch(err){status.textContent='We could not send your feedback. Please try again.';btn.disabled=false}
+});
+</script></body></html>
