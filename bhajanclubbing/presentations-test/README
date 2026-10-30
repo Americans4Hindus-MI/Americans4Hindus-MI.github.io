@@ -1,0 +1,10 @@
+# A4H Presentations — Test (v3)
+
+Test version of the A4H Bhajan Clubbing 2026 presentations page.
+
+- **Test URL:** https://americans4hindus-mi.github.io/bhajanclubbing/presentations-test/
+- **Production URL:** https://americans4hindus-mi.github.io/bhajanclubbing/presentations/
+- **Purpose:** Test video selection, automatic scrolling, playback, and mobile display before release.
+- **Data:** Reads the live `Event Presentations` Google Sheet; changes to that sheet affect both test and production.
+
+Upload `index.html` and `README.md` into `bhajanclubbing/presentations-test/`. Do not replace the production page until testing is approved.
